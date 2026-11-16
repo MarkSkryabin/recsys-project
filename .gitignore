@@ -1,0 +1,28 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# IDE settings and local environment files
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Local libraries and Jupyter service files
+lab_1/.runtime/
+lab_1/.jupyter/
+
+# Downloaded datasets and generated intermediate results
+lab_1/data/
+lab_1/artifacts/
+
+# Local reading materials and authoring templates
+lab_1/articles/
+lab_1/desc/
+lab_1/build_notebook.py
+lab_1/notebook_template.json

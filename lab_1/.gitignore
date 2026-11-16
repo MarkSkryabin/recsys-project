@@ -1,0 +1,6 @@
+.runtime/
+.jupyter/
+artifacts/.ipython/
+artifacts/.jupyter-runtime/
+artifacts/.matplotlib/
+__pycache__/
