@@ -20,12 +20,11 @@
 python lab_1/run_notebook.py
 ```
 
-В текущей конфигурации с локальными библиотеками Python 3.12:
+Для запуска из корня проекта через его виртуальное окружение в PowerShell:
 
 ```powershell
-& 'C:\Users\skrya\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -X utf8 lab_1/run_notebook.py
+& .\venv\Scripts\python.exe -X utf8 lab_1/run_notebook.py
 ```
 
-`build_notebook.py` и `notebook_template.json` — вспомогательный шаблон;
-для обычной работы с ноутбуком они не нужны. Генератор очищает outputs,
-поэтому для повторного запуска используйте сам ноутбук или `run_notebook.py`.
+Для повторного выполнения используйте сам ноутбук или `run_notebook.py`.
+Скрипт сохраняет результаты выполнения непосредственно в ноутбуке.
